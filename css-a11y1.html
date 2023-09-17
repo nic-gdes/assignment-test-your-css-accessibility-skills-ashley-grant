@@ -5,7 +5,6 @@
     <title>CSS accessibility: Task 1</title>
     <style>
       body {
-        background-color: #fff;
         color: #333;
         font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
         padding: 1em;
@@ -17,22 +16,38 @@
       }
 
       a {
-        text-decoration: none;
-        color: #666;
+        color: #0011ff;
         outline: none;
       }
+
+      a:hover {
+        color: rgb(107, 114, 255);
+      }
+
+      a:active {
+        color: rgb(107, 114, 255);
+      }
+
+      a:focus {
+        color: rgb(255, 0, 0);
+      }
+
+      a:visited {
+        color: purple;
+      }
+
     </style>
   </head>
 
   <body>
 
     <ul>
-      <li><a href="">Animals</a></li>
-      <li><a href="">Computers</a></li>
-      <li><a href="">Diversity and inclusion</a></li>
-      <li><a href="">Food</a></li>
-      <li><a href="">Medicine</a></li>
-      <li><a href="">Music</a></li>
+      <li><a href="https://www.google.com/search?sca_esv=565998106&sxsrf=AM9HkKlDBhfr2glZN5QZI4_9MPbn6b9JeA:1694916120916&q=animal&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiusL7KxrCBAxUUkYkEHZ7vD_UQ0pQJegQIDRAB&biw=1358&bih=791&dpr=2" target="_blank">Animals</a></li>
+      <li><a href="https://www.google.com/search?sca_esv=565998106&sxsrf=AM9HkKkrT7CbSJstyXS5hyo8CLHdyImyrA:1694916199837&q=computer&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjno4_wxrCBAxVFkokEHZYUASkQ0pQJegQICBAB&biw=1358&bih=791&dpr=2" target="_blank">Computers</a></li>
+      <li><a href="https://www.google.com/search?q=diversity+and+inclusion&tbm=isch&ved=2ahUKEwi3wvzwxrCBAxXMFd4AHVQ7AH8Q2-cCegQIABAA&oq=diversity+and+inclusion&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6CggAEIoFELEDEEM6BwgAEIoFEEM6CwgAEIAEELEDEIMBUKYHWMMhYPYjaABwAHgAgAGRAYgB4BSSAQQ0LjIwmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=aV4GZffpJcyr-LYP1PaA-Ac&bih=791&biw=1358" target="_blank">Diversity and inclusion</a></li>
+      <li><a href="https://www.google.com/search?q=Food&tbm=isch&ved=2ahUKEwimqtyFx7CBAxV-NN4AHfSjD6kQ2-cCegQIABAA&oq=Food&gs_lcp=CgNpbWcQAzIHCAAQigUQQzIHCAAQigUQQzIKCAAQigUQsQMQQzIKCAAQigUQsQMQQzIHCAAQigUQQzIKCAAQigUQsQMQQzIHCAAQigUQQzIFCAAQgAQyCAgAEIAEELEDMggIABCABBCxA1DkB1jkB2D3CWgAcAB4AIABd4gB3AGSAQMwLjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=lV4GZeaLCP7o-LYP9Me-yAo&bih=791&biw=1358" target="_blank">Food</a></li>
+      <li><a href="https://www.google.com/search?q=Medicine&tbm=isch&ved=2ahUKEwjywbiXx7CBAxVOEt4AHX0kAk0Q2-cCegQIABAA&oq=Medicine&gs_lcp=CgNpbWcQAzIKCAAQigUQsQMQQzIHCAAQigUQQzIKCAAQigUQsQMQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIICAAQgAQQsQMyCggAEIoFELEDEEMyBQgAEIAEMgUIABCABDoECCMQJ1DfB1jfB2CkDWgAcAB4AIABcIgB0gGSAQMxLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=ul4GZfL8Ec6k-LYP_ciI6AQ&bih=791&biw=1358" target="_blank">Medicine</a></li>
+      <li><a href="https://www.google.com/search?q=music&tbm=isch&ved=2ahUKEwipgL2jx7CBAxWXJN4AHQShCvIQ2-cCegQIABAA&oq=music&gs_lcp=CgNpbWcQAzIKCAAQigUQsQMQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIKCAAQigUQsQMQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzIICAAQgAQQsQMyBwgAEIoFEEM6BQgAEIAEOgQIIxAnUNUHWOMLYMIMaABwAHgAgAG3AYgB6wSSAQMwLjWYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=014GZenKIJfJ-LYPhMKqkA8&bih=791&biw=1358" target="_blank">Music</a></li>
     </ul>
 
   </body>
