@@ -6,7 +6,7 @@
     <style>
       body {
         background-color: #fff;
-        color: #333;
+        color: black;
         font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
         padding: 1em;
         margin: 0;
@@ -18,11 +18,7 @@
 
       main {
         padding: 20px;
-        background-color: red;
-      }
-
-      h1, h2, p {
-        color: #999;
+        background-color: rgb(255, 216, 216);
       }
 
       h1 {
@@ -36,23 +32,32 @@
       p {
         font-size: 1.2vw;
       }
+      
+@media screen and (max-width: 700px) {
+      h1 {
+        font-size: 1em;
+      }
+
+      h2 {
+        font-size: 1em;
+      }
+
+      p {
+        font-size: 0.8em;
+      }
+}
+
     </style>
   </head>
-
+<!--the problems arehaving a grey font color with a bright red backgrounf color. That creates ill contrast that hurt people's eyes and make it difficult to read. Also, the text gets way to small in mobile so I added media queries to keep it big enough to read.-->
   <body>
     <main>
       <h1>I am the eggman</h1>
-
       <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl.</p>
-
       <h2>They are the eggman</h2>
-
       <p>Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</p>
-
       <h2>I am the walrus</h2>
-
       <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
     </main>
   </body>
-
 </html>
